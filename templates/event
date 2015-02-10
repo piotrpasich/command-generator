@@ -1,0 +1,13 @@
+<?php $NAMESPACE$
+
+use $MODEL_FQN$;
+
+class $NAME$ {
+
+    public $$INSTANCE$;
+
+    public function __construct($MODEL$ $$INSTANCE$)
+    {
+        $this->$INSTANCE$ = $$INSTANCE$;
+    }
+}

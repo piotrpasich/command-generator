@@ -1,0 +1,19 @@
+<?php $NAMESPACE$
+
+use Laracasts\Commander\CommandHandler;
+use Laracasts\Commander\Events\DispatchableTrait;
+
+class $HANDLER_NAME$ implements CommandHandler {
+
+    use DispatchableTrait;
+
+    public function handle($command)
+    {
+        $$INSTANCE$ = $MODEL$::$ACTION$(
+            $PARAMETERS$
+        );
+
+        $this->dispatchEventsFor($$INSTANCE$);
+        return $$INSTANCE$;
+    }
+}

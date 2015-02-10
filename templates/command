@@ -1,0 +1,11 @@
+<?php $NAMESPACE$
+
+class $COMMAND_NAME$ {
+
+    $ATTRIBUTES$
+    
+    public function __construct($ARGUMENTS$)
+    {
+        $ASSIGNMENTS$
+    }
+}

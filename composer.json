@@ -1,0 +1,23 @@
+{
+  "name": "jedrzej/command-generator",
+  "description": "",
+  "authors": [
+    {
+      "name": "jedrzej",
+      "email": "jedrzej.kurylo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "4.2.*"
+  },
+  "require_dev": {
+    "way/generators": "~2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Jedrzej\\CommandGenerator": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

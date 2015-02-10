@@ -27,8 +27,7 @@ php artisan generate:command:remove "$NAMESPACE" "$MODEL" "$ATTRIBUTES" "$REMOVE
 # events
 for EVENT in "${EVENTS[@]}"
 do
-    echo 5
-        php artisan generate:event "$NAMESPACE" "$MODEL" "$EVENT"
+    php artisan generate:event "$NAMESPACE" "$MODEL" "$EVENT"
 done
 
 #validators
